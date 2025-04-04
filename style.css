@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quantico;
+}
+
+header {
+    height: 70px;
+    background-color: #333;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+ nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+ nav a:hover {
+    color: rgba(255, 156, 40, 1);
+}
+
+.container input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 241px;
+    height: 30px;
+    background-color: rgba(64, 72, 100, 1);
+    border: none;
+}
+
+.hero {
+    background-image: url(image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero2 {
+    background-color: black;
+    padding-top: 20px;
+}
+
+.hero2 h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.hero2 .container {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    gap: 41px;
+    margin-left: 143px;
+}
+
+.hero3 {
+    height: 928px;
+    background-color: rgba(27, 30, 39, 1);
+    padding-top: 60px;
+}
+
+.hero3 h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    color: white;
+    margin-left: 245px;
+}
+
+.hero3-container {
+    width: 740px;
+    margin-left: 245px;
+    margin-top: 30px;
+    display: flex;
+    gap: 17px;
+}
+
+.hero3-container img {
+    width: 400px;
+    height: 234px;
+}
+
+.container-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(191, 191, 191, 1);
+}
+
+.hero3 .h2 {
+    margin-top: 142px;
+    margin-left: 245px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    color: white;
+}
+
+footer {
+    height: 70px;
+    background-color: #333;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
